@@ -4,3 +4,8 @@ dist/
 build/
 .DS_Store
 /.metadata/
+/.vscode/settings.json
+/spring-backend/.metadata/
+/spring-backend/.classpath
+/spring-backend/.project
+/spring-backend/.settings/
