@@ -6,7 +6,7 @@ echo ========================================
 echo.
 
 echo [1/2] Starting Backend Server...
-start "GiveHope Backend" cmd /k "cd backend && npm run dev"
+start "GiveHope Backend" cmd /k "cd spring-backend && mvn spring-boot:run"
 
 timeout /t 3 /nobreak > nul
 
@@ -18,7 +18,7 @@ echo ========================================
 echo   Application Started Successfully!
 echo ========================================
 echo.
-echo Backend:  http://localhost:8084
+echo Backend:  http://localhost:8084/api/v1
 echo Frontend: http://localhost:5173
 echo.
 echo Press any key to exit this window...
